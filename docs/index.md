@@ -30,7 +30,9 @@ List the content that will be stored on the client side. This should include any
     
 ### Device/external services
 
-If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
+* <p> <a href="https://premium.zenquotes.io/zenquotes-documentation/">
+  Quote Generator API
+</a> </p>
     
 ## Server component
 
