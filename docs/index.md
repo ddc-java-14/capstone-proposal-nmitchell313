@@ -16,8 +16,6 @@ me up for the day or you inspire to be the wise friend of the group with quotes 
  
 ## Client component
 
-* TBD
-
 ### Functionality
 
 * User will be able to decide on picking a quote from a specific author, a daily generated quote or one quote at a time.
@@ -39,8 +37,6 @@ me up for the day or you inspire to be the wise friend of the group with quotes 
 </a> </p>
     
 ## Server component
-
-* TBD
 
 ### Functionality
 
