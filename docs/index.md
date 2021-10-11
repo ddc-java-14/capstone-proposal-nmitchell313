@@ -18,17 +18,17 @@ me up for the day or you inspire to be the wise friend of the group with quotes 
 
 ### Functionality
 
-* User will be able to decide on picking a quote from a specific author, a daily generated quote or one quote at a time.
+User will be able to:
 
-* User will be able to receive a quote and learn the author of that quote.
+* Query a desired quote by author name, a daily generated quote or one quote at a time.
+* Receive a quote and learn the author of that quote.
+* Save quotes and author of that quote.
 
 ### Persistent data
 
-* TBD
+* Quote history log
 
-// (List the content that will be stored on the client side. This should include any information that a user of your 
-//system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, 
-//on a single device.) 
+* Saved author name and quote.
     
 ### Device/external services
 
@@ -55,6 +55,9 @@ me up for the day or you inspire to be the wise friend of the group with quotes 
 // it should be part of the persistent data on the server.) 
     
 ### External services
+
+* Google sign-in.
+
 
 * TBD
 
