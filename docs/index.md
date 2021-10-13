@@ -1,7 +1,7 @@
 ## Summary
 
-<i> Inspiration Generator </i> is an easy to use and straight to the point app. Whether you're feeling down and need a pick
-me up for the day or you inspire to be the wise friend of the group with quotes to generate for advice, this app is for you!
+<i> Affirmation Generator </i> is an easy to use, interactive, mental health app. <i> Affirmation Generator </i> greets the user with a personal message,
+takes input from user regarding their current mood ("happy", "sad", "upset", "angry", etc) and generates specific affirmations and quotes based on that input.
 
 ## Intended users
 
@@ -10,65 +10,63 @@ me up for the day or you inspire to be the wise friend of the group with quotes 
 > As someone down on their luck, I want an app I can use to generate a random, inspirational quote for me to analyze 
 > and help brighten my mood.
 
-* A friend looking for solid advice.
+* Someone wanting a daily affirmation message
 
-> As a caring friend, I want an app that I can use to generate random quotes for me to use as advice for a friend.
+> As someone looking for a daily dose of kind words to start my morning, I want an app that I can tell to wake me up daily with only positive quotes and affirmations.
  
 ## Client component
 
 ### Functionality
 
-User will be able to:
+* User will be greeted at the beginning window and asked "how they are feeling today".
 
-* Query a desired quote by author name, a daily generated quote or one quote at a time.
-* Receive a quote and learn the author of that quote.
-* Save quotes and author of that quote.
+* Once interaction between app and user has been initiated, user will:
+
+  * Interact with search bar or a drop window where they will query a desired quote/affirmation by author name, a daily generated quote/affirmation or one quote/affirmation at a time.
+
+  * Receive a quote/affirmation and learn the author.
+
 
 ### Persistent data
 
-* Quote history log
+* User's name and mood.
+
+* List of quotes/affirmations.
 
 * Saved author name and quote.
     
 ### Device/external services
 
-* <p> <a href="https://premium.zenquotes.io/zenquotes-documentation/">
-  Quote Generator API
-</a> </p>
+* TBD
     
 ## Server component
 
 ### Functionality
 
-* TBD
+* Quote database search .
 
-// (List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the 
-// system functionality will be performed by the server.)
+* Save quotes and author of that quote.
 
 ### Persistent data
 
-*TBD
+* Quote information (Author, quote and similar matches).
 
-// (List the content that will be stored on the server side. This should include any information that a user of your 
-// system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. 
-// In addition, if there will be data originating from some users that will then be accessible by other users, 
-// it should be part of the persistent data on the server.) 
+* Search history.
+
+* Favorite quote.
+
+* Favorite author.
     
 ### External services
 
+* <p> <a href="https://premium.zenquotes.io/zenquotes-documentation/">
+  Quote Generator API
+</a> </p>
+
 * Google sign-in.
-
-
-* TBD
-
-// (If the server component will need to access already-existing external services 
-// (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services 
-// should include links to the main page or API description page for the service.)
     
 ## Stretch goals/possible enhancements 
 
-* TBD
+* This app will, in its finished product, ask the user daily how they are feeling and provide specific quotes/inspiration to either,
+ boost confidence, provide advice/words of encouragement, lift self-esteem or etc.
 
-// (If you can identify functional elements of the software that you think might not be achievable in the scope of
-// the project, but which would nonetheless add significant value if you were able to include them, list them here. 
-// For now, we recommend listing them in order of complexity/amount of work, from the least to the most.)
